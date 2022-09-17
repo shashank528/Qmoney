@@ -81,6 +81,7 @@ class PortfolioManagerPerformanceTest {
   public void calculateExtrapolatedAnnualizedReturn()
       throws JsonProcessingException, StockQuoteServiceException, InterruptedException {
     runConcurrencyTest(false);
+    System.out.println("shashank");
   }
 
 
